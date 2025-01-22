@@ -1,0 +1,19 @@
+services:
+  docs:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+      args:
+        ENV_USERNAME: vscode
+        ENV_WORKDIR: /workspace
+    ports:
+      - "8080:8000"
+    volumes:
+      - ..:/workspace:cache
+      - node_modules:/workspace/node_modules
+      - venv:/workspace/venv
+    command: /bin/sh -c "while :; do sleep 10; done"
+
+volumes:
+  node_modules:
+  venv:

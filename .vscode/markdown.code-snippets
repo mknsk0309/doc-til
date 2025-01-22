@@ -1,0 +1,93 @@
+{
+  "table": {
+    "scope": "markdown",
+    "prefix": "table",
+    "body": [
+      "| ${0:   } |     |     |",
+      "| --- | --- | --- |",
+      "|     |     |     |"
+    ],
+    "description": "Table（Markdown）"
+  },
+  "linkWithImage": {
+    "scope": "markdown",
+    "prefix": "link-image",
+    "body": [
+      "[![${1:alt}](${2:imageURL})](${3:linkURL})"
+    ],
+    "description": "Link with Image (Markdown)"
+  },
+  "imageWithCaption": {
+    "scope": "markdown",
+    "prefix": "image-caption",
+    "body": [
+      "![${1:alt}](${2:https://})",
+      "*${3:caption text}*"
+    ],
+    "description": "Image with Caption (Markdown)"
+  },
+  "codeBlock": {
+    "scope": "markdown",
+    "prefix": "code-block",
+    "body": [
+      "```${1:ts}:${2:file-name.ts}",
+      "${0}",
+      "```"
+    ],
+    "description": "Code block（Markdown）"
+  },
+  "codeBlockDiff": {
+    "scope": "markdown",
+    "prefix": "code-block-diff",
+    "body": [
+      "```diff ${1:ts}:${2:file-name.ts}",
+      "${0}",
+      "```"
+    ],
+    "description": "Code block diff（Markdown）"
+  },
+  "blockquote": {
+    "scope": "markdown",
+    "prefix": "blockquote",
+    "body": [
+      "> ${0}"
+    ],
+    "description": "blockquote（Markdown）"
+  },
+  "footnote": {
+    "scope": "markdown",
+    "prefix": "footnote",
+    "body": [
+      "[^1]: ${0:Footnote1}"
+    ],
+    "description": "Footnote（Markdown）"
+  },
+  "footnoteInline": {
+    "scope": "markdown",
+    "prefix": "footnote-inline",
+    "body": [
+      "^[${1:Footnote text}]"
+    ],
+    "description": "Footnote inline（Markdown）"
+  },
+  "comment": {
+    "scope": "markdown",
+    "prefix": "comment",
+    "body": [
+      "<!-- ${1:Comment} -->"
+    ],
+    "description": "Inline comment（Markdown）"
+  },
+  "mermaid": {
+    "scope": "markdown",
+    "prefix": "mermaid",
+    "body": [
+      "```mermaid",
+      "${1:flowchart} ${2:LR}",
+      "\t${0:A-->B}",
+      "```",
+      ""
+    ],
+    "description": "Mermaid（Markdown）"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "TIL Contents Manager",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "docs",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "MS-CEINTL.vscode-language-pack-ja",
+        "vscode-icons-team.vscode-icons",
+        "eamodio.gitlens",
+        "yzhang.markdown-all-in-one",
+        "TakumiI.markdowntable",
+        "taichi.vscode-textlint",
+        "christian-kohler.path-intellisense",
+        "DavidAnson.vscode-markdownlint"
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+site_name: TIL Documents
+theme:
+  name: material
+  language: ja
+  icon:
+    logo: material/note-edit
+    repo: fontawesome/brands/github
+repo_name: doc-til
+repo_url: https://github.com/mknsk0309/doc-til
