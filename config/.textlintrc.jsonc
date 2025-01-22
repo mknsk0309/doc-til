@@ -65,7 +65,8 @@
         "preferInList": ""
       },
       "max-kanji-continuous-len": false, // 連続できる最大の漢字長の制限
-      "ja-no-weak-phrase": false // 弱い日本語表現の利用
+      "ja-no-weak-phrase": false, // 弱い日本語表現の利用
+      "max-comma": false // コンマの数
     }
   }
 }

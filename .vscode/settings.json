@@ -3,6 +3,7 @@
   "git.useEditorAsCommitInput": true,
   "explorer.compactFolders": false,
   "scm.compactFolders": false,
+  "files.insertFinalNewline": true,
   "[markdown]": {
     "editor.wordWrap": "on",
     "editor.snippetSuggestions": "top",
@@ -11,10 +12,6 @@
       "strings": true,
       "other": true
     }
-  },
-  "markdown.copyFiles.destination": {
-    "articles/*.md": "/images/${documentRelativeDirName}/${documentBaseName}/",
-    "books/*/*.md": "/images/${documentRelativeDirName}/${documentBaseName}/"
   },
   "markdown.extension.toc.updateOnSave": false,
   "markdowntable.formatOnSave": true,

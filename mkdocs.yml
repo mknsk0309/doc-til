@@ -7,3 +7,12 @@ theme:
     repo: fontawesome/brands/github
 repo_name: doc-til
 repo_url: https://github.com/mknsk0309/doc-til
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
