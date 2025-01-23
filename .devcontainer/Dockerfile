@@ -21,7 +21,7 @@ USER ${ENV_USERNAME}
 RUN python3 -m venv venv 
 RUN source venv/bin/activate \
   && pip install --upgrade pip \
-  && pip install --upgrade mkdocs mkdocs-material
+  && pip install --upgrade mkdocs mkdocs-material mdx_truly_sane_lists
 
 COPY package.json yarn.lock ${ENV_WORKDIR}/
 RUN yarn install
