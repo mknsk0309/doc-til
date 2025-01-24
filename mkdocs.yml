@@ -1,12 +1,33 @@
-site_name: TIL Documents
+site_name: Today I Learned
 theme:
   name: material
   language: ja
   icon:
     logo: material/note-edit
     repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
 repo_name: doc-til
 repo_url: https://github.com/mknsk0309/doc-til
+
+nav:
+  - Home: index.md
+  - Programing Tips:
+    - Ruby / Ruby on Rails:
+      - Rubyの予約語: programing-tips/ruby-rails/Rubyの予約語.md
+      - オブジェクト: programing-tips/ruby-rails/オブジェクト.md
+      - メソッド: programing-tips/ruby-rails/メソッド.md
+      - 演算子: programing-tips/ruby-rails/演算子.md
+      - パーセント記法: programing-tips/ruby-rails/パーセント記法.md
+      - 正規表現: programing-tips/ruby-rails/正規表現.md
+      - 文字コード: programing-tips/ruby-rails/文字コード.md
+      - 文字列の操作: programing-tips/ruby-rails/文字列の操作.md
+      - n数値の操作: programing-tips/ruby-rails/n数値の操作.md
+      - 配列の操作: programing-tips/ruby-rails/配列の操作.md
+      - ハッシュの操作: programing-tips/ruby-rails/ハッシュの操作.md
+      - ディレクトリ・ファイルの操作: programing-tips/ruby-rails/ディレクトリ・ファイルの操作.md
+      - 例外処理: programing-tips/ruby-rails/例外処理.md
 
 markdown_extensions:
   - pymdownx.highlight:
