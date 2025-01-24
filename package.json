@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "mkserve": "source venv/bin/activate && mkdocs serve --dev-addr=0.0.0.0:8080",
+    "mkdeploy": "source venv/bin/activate && mkdocs gh-deploy",
     "lint": "textlint 'src/**/*.md'",
     "lint:fix": "textlint --fix 'src/**/*.md'"
   },
