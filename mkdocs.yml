@@ -13,6 +13,9 @@ repo_url: https://github.com/mknsk0309/doc-til
 
 nav:
   - Home: index.md
+  - Develop Tips:
+    - DevContainer:
+      - 設定ファイルの書き方: develop-tips/DevContainer/設定ファイルの書き方.md
   - Programing Tips:
     - Ruby / Ruby on Rails:
       - Rubyの予約語: programing-tips/ruby-rails/Rubyの予約語.md
