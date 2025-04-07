@@ -37,6 +37,12 @@ nav:
       - 数値型クラス: programing-tips/ruby/数値型クラス.md
     - Rails:
       - Railsコマンド: programing-tips/rails/Railsコマンド.md
+      - Rails8で個人開発してみる:
+        - Top: programing-tips/rails/rails8-dev-app/index.md
+        - 開発環境構築: programing-tips/rails/rails8-dev-app/001_開発環境構築.md
+        - RSpecの導入: programing-tips/rails/rails8-dev-app/002_RSpecの導入.md
+        - Bootstrapの導入: programing-tips/rails/rails8-dev-app/003_Bootstrapの導入.md
+        - i18nによる日本語化: programing-tips/rails/rails8-dev-app/004_i18nによる日本語化.md
 
 markdown_extensions:
   - pymdownx.highlight:
