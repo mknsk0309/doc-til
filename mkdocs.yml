@@ -1,0 +1,38 @@
+site_name: Today I Learned
+theme:
+  name: material
+  language: ja
+  icon:
+    logo: material/note-edit
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+repo_name: doc-til
+repo_url: https://github.com/mknsk0309/doc-til
+
+nav:
+  - Home: index.md
+  - Develop Tips:
+    - 目次: develop-tips/index.md
+  - Programing Tips:
+    - 目次: programing-tips/index.md
+  - Book Notes:
+    - 目次: book-notes/index.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - mdx_truly_sane_lists:
+      nested_indent: 2
+
+extra_javascript:
+  - _scripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

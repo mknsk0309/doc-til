@@ -1,0 +1,17 @@
+{
+  "name": "doc-til",
+  "version": "1.0.0",
+  "description": "Documentation for TIL",
+  "scripts": {
+    "mkdocs": "mkdocs serve --dev-addr=0.0.0.0:8080",
+    "lint": "textlint --config config/.textlintrc.jsonc docs/**/*.md && markdownlint -c config/.markdownlint.jsonc docs/**/*.md",
+    "lint:fix": "textlint --fix --config config/.textlintrc.jsonc docs/**/*.md && markdownlint --fix -c config/.markdownlint.jsonc docs/**/*.md"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.35.0",
+    "textlint": "^14.4.2",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-preset-ja-spacing": "^2.4.3",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2"
+  }
+}

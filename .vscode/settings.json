@@ -1,0 +1,26 @@
+{
+  "editor.formatOnSave": true,
+  "git.useEditorAsCommitInput": true,
+  "explorer.compactFolders": false,
+  "scm.compactFolders": false,
+  "files.insertFinalNewline": true,
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.snippetSuggestions": "top",
+    "editor.quickSuggestions": {
+      "comments": true,
+      "strings": true,
+      "other": true
+    }
+  },
+  "markdown.copyFiles.destination": {
+    "**/*.md": "./image/${documentBaseName}/"
+  },
+  "markdown.extension.toc.updateOnSave": false,
+  "markdowntable.formatOnSave": true,
+  "markdownlint.run": "onType",
+  "markdownlint.configFile": "./config/.markdownlint.jsonc",
+  "textlint.configPath": "/workspace/config/.textlintrc.jsonc",
+  "textlint.run": "onType",
+  "textlint.autoFixOnSave": true
+}
