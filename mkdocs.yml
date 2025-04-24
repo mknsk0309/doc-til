@@ -19,6 +19,8 @@ nav:
     - 目次: programing-tips/index.md
   - Book Notes:
     - 目次: book-notes/index.md
+    - Books:
+      - エンジニアが一生困らない ドキュメント作成の基本: book-notes/books/エンジニアが一生困らないドキュメント作成の基本.md
 
 markdown_extensions:
   - pymdownx.highlight:
