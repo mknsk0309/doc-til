@@ -17,6 +17,10 @@ nav:
     - 目次: develop-tips/index.md
   - Programing Tips:
     - 目次: programing-tips/index.md
+    - Nuxt3:
+      - プロジェクトの作成: programing-tips/nuxt/プロジェクトの作成.md
+      - SFCへの記述の基本 | スクリプトブロック編: programing-tips/nuxt/SFCへの記述の基本_スクリプトブロック.md
+      - SFCへの記述の基本 | テンプレートブロック編: programing-tips/nuxt/SFCへの記述の基本_テンプレートブロック.md
   - Book Notes:
     - 目次: book-notes/index.md
     - Books:

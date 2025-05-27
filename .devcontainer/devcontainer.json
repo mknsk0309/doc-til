@@ -20,8 +20,9 @@
 				"yzhang.markdown-all-in-one",
 				"TakumiI.markdowntable",
 				"DavidAnson.vscode-markdownlint",
-				"taichi.vscode-textlint",
-				"christian-kohler.path-intellisense"
+				"3w36zj6.textlint",
+				"christian-kohler.path-intellisense",
+				"shd101wyy.markdown-preview-enhanced"
 			]
 		}
 	},
