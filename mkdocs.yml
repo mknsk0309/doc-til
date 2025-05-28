@@ -21,6 +21,7 @@ nav:
       - プロジェクトの作成: programing-tips/nuxt/プロジェクトの作成.md
       - SFCへの記述の基本 | スクリプトブロック編: programing-tips/nuxt/SFCへの記述の基本_スクリプトブロック.md
       - SFCへの記述の基本 | テンプレートブロック編: programing-tips/nuxt/SFCへの記述の基本_テンプレートブロック.md
+      - コンポーネント間連携: programing-tips/nuxt/コンポーネント間連携.md
   - Book Notes:
     - 目次: book-notes/index.md
     - Books:
